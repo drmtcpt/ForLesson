@@ -15,7 +15,6 @@ def determine_winner(choice1, choice2):
     else:
         return "Player 2 wins!"
 
-# Основная логика игры
 choice1 = get_choice("Player 1")
 if choice1:
     choice2 = get_choice("Player 2")
